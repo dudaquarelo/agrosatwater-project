@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sobre o AgroSat Water — Sistema de gerenciamento hídrico agrícola por satélite com tecnologia SAR." />
+  <title>Sobre — AgroSat Water</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-logo" href="index.html" aria-label="AgroSat Water - Início">
+        <span class="logo-text">AgroSat <span class="logo-accent">Water</span></span>
+      </a>
+      <ul class="navbar-menu" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="integrantes.html">Equipe</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+      </div>
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="solucao.html">Solução</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="integrantes.html">Equipe</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contato.html">Contato</a>
+    <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Cabeçalho da página">
+      <div class="container">
+        <span class="eyebrow">Sobre o Projeto</span>
+        <h1>O que é o AgroSat Water?</h1>
+        <p>Uma solução inovadora que une tecnologia espacial e agricultura sustentável para otimizar o uso dos recursos hídricos no campo.</p>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section" aria-labelledby="intro-title">
+      <div class="container">
+        <div class="sobre-intro">
+          <div class="text-content reveal">
+            <h2 id="intro-title">A origem do problema</h2>
+            <p>O Brasil possui cerca de 12% de toda a água doce do planeta, mas enfrenta crescentes desafios de distribuição e uso eficiente nos sistemas produtivos agrícolas. A agricultura irrigada consome mais de 70% da água captada no país, tornando a gestão hídrica uma questão estratégica.</p>
+            <p>Sensores físicos instalados no campo exigem infraestrutura, manutenção e cobrem áreas limitadas. Com a expansão das fronteiras agrícolas, esse modelo se torna inviável para grandes propriedades.</p>
+            <p>O AgroSat Water nasce como resposta direta a esse desafio: uma plataforma que usa satélites para monitorar a umidade do solo em escala, sem necessidade de instalar nada no campo.</p>
+            <a href="solucao.html" class="btn btn-primary" style="margin-top:8px">Ver a Solução Técnica</a>
+          </div>
+          <div class="sobre-visual reveal">
+            <div class="sobre-stats">
+              <div class="sobre-stat">
+                <span class="big-num" data-count="70">0</span>
+                <span class="big-lbl">% da água captada vai para irrigação</span>
+              </div>
+              <div class="sobre-stat">
+                <span class="big-num" data-count="12">0</span>
+                <span class="big-lbl">% da água doce do planeta está no Brasil</span>
+              </div>
+              <div class="sobre-stat">
+                <span class="big-num" data-count="98">0</span>
+                <span class="big-lbl">% de precisão do sensor SAR</span>
+              </div>
+              <div class="sobre-stat">
+                <span class="big-num" data-count="0">0</span>
+                <span class="big-lbl">equipamentos físicos necessários no campo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section tech-stack" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Tecnologia</span>
+          <h2 id="tech-title">Ciência por trás do sistema</h2>
+          <p>O AgroSat Water combina sensoriamento remoto, processamento de imagem e análise de dados para entregar informações acionáveis.</p>
+        </div>
+        <div class="tech-grid reveal-stagger">
+          <div class="tech-card">
+            <div class="emoji">📡</div>
+            <h4>Sensores SAR</h4>
+            <p>Synthetic Aperture Radar utiliza micro-ondas de comprimento de onda entre 1 cm e 1 m para penetrar nuvens e medir propriedades dielétricas do solo.</p>
+          </div>
+          <div class="tech-card">
+            <div class="emoji">🌊</div>
+            <h4>Permissividade Dielétrica</h4>
+            <p>A assinatura dielétrica da água é única e estável. Quanto maior a umidade do solo, maior a constante dielétrica captada pelo radar orbital.</p>
+          </div>
+          <div class="tech-card">
+            <div class="emoji">🗺️</div>
+            <h4>Mapeamento por Talhão</h4>
+            <p>Dados georeferenciados permitem gerar mapas de umidade com resolução espacial inferior a 10m, identificando variações dentro de um mesmo talhão.</p>
+          </div>
+          <div class="tech-card">
+            <div class="emoji">⚡</div>
+            <h4>Processamento em Nuvem</h4>
+            <p>Algoritmos de machine learning processam as imagens SAR e entregam resultados em minutos após a passagem do satélite sobre a área.</p>
+          </div>
+          <div class="tech-card">
+            <div class="emoji">🔔</div>
+            <h4>Alertas Automáticos</h4>
+            <p>Motor de regras configura limiares por cultura e envia notificações quando valores de umidade saem da faixa ideal de manejo.</p>
+          </div>
+          <div class="tech-card">
+            <div class="emoji">📈</div>
+            <h4>Análise Histórica</h4>
+            <p>Série temporal de dados permite identificar padrões sazonais e prever demandas hídricas com base em ciclos anteriores da mesma cultura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner" aria-label="Chamada para ação">
+      <div class="container">
+        <h2 class="reveal">Conheça a equipe por trás do projeto</h2>
+        <p class="reveal">Estudantes de Análise e Desenvolvimento de Sistemas da FIAP desenvolvendo soluções para o futuro da agricultura.</p>
+        <a href="integrantes.html" class="btn btn-white reveal">Ver Integrantes</a>
+      </div>
+    </section>
+  </main>
+
+ <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="AgroSat Water" class="footer-logo-img" />
+          <p>Sistema de gerenciamento hídrico agrícola por satélite. Tecnologia SAR para um campo mais sustentável.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre o Projeto</a></li>
+            <li><a href="solucao.html">Nossa Solução</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="integrantes.html">Nossa Equipe</a></li>
+            <li><a href="faq.html">Perguntas Frequentes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-newsletter">
+          <h5>Novidades</h5>
+          <p>Receba atualizações sobre o AgroSat Water.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="seu@email.com" aria-label="E-mail para newsletter" />
+            <button class="btn btn-primary" type="button">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AgroSat Water. Projeto Global Solution — FIAP.</p>
+        <div class="footer-bottom-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
