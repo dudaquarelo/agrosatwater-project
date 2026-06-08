@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre em contato com a equipe AgroSat Water. Formulário, e-mail e redes sociais." />
+  <title>Contato — AgroSat Water</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-logo" href="index.html" aria-label="AgroSat Water - Início">
+        <span class="logo-text">AgroSat <span class="logo-accent">Water</span></span>
+      </a>
+      <ul class="navbar-menu" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="integrantes.html">Equipe</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+      </div>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" role="navigation" aria-label="Menu mobile">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="solucao.html">Solução</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="integrantes.html">Equipe</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contato.html">Contato</a>
+    <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+  </div>
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Cabeçalho da página">
+      <div class="container">
+        <span class="eyebrow">Fale Conosco</span>
+        <h1>Entre em contato</h1>
+        <p>Tem dúvidas sobre o AgroSat Water, quer uma demonstração ou deseja colaborar com o projeto? Mande uma mensagem.</p>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <section class="section" aria-labelledby="contato-title">
+      <div class="container">
+        <div class="contato-grid">
+
+          <!-- COLUNA ESQUERDA — Informações -->
+          <div class="contato-info reveal">
+            <h2 id="contato-title">Como podemos ajudar?</h2>
+            <p>Seja para entender melhor a tecnologia SAR, discutir uma parceria, solicitar acesso à plataforma ou tirar dúvidas sobre o projeto acadêmico — estamos disponíveis.</p>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">📧</div>
+                <div>
+                  <div class="key">E-mail</div>
+                  <div class="val">contato@agrosatwater.com.br</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">🏫</div>
+                <div>
+                  <div class="key">Instituição</div>
+                  <div class="val">FIAP — Faculdade de Informática e Administração Paulista</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">📍</div>
+                <div>
+                  <div class="key">Localização</div>
+                  <div class="val">São Paulo, SP — Brasil</div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon" aria-hidden="true">💻</div>
+                <div>
+                  <div class="key">GitHub</div>
+                  <div class="val">
+                    <a href=https://github.com/dudaquarelo/agrosat-water-global-solution target="_blank" rel="noopener noreferrer" style="color:var(--azul-claro);text-decoration:underline;">github.com/agrosatwater</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cards temáticos de contato -->
+            <div class="contato-cards">
+              <div class="contato-card">
+                <span class="contato-card-icon">🤝</span>
+                <div>
+                  <h4>Parceria Acadêmica</h4>
+                  <p>Professores e pesquisadores interessados em colaborar com o projeto.</p>
+                </div>
+              </div>
+              <div class="contato-card">
+                <span class="contato-card-icon">🌾</span>
+                <div>
+                  <h4>Produtor Rural</h4>
+                  <p>Agricultores que queiram testar a solução em suas propriedades.</p>
+                </div>
+              </div>
+              <div class="contato-card">
+                <span class="contato-card-icon">🛰️</span>
+                <div>
+                  <h4>Interesse Tecnológico</h4>
+                  <p>Entusiastas de agrotech, sensoriamento remoto e dados satelitais.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- COLUNA DIREITA — Formulário -->
+          <div class="reveal">
+            <div class="form-card">
+
+              <!-- Formulário  -->
+              <div class="form-inner">
+                <h3 style="margin-bottom:8px;font-size:1.2rem;">Envie sua mensagem</h3>
+                <p style="margin-bottom:28px;font-size:0.9rem;">Todos os campos marcados com * são obrigatórios.</p>
+
+                <form id="contact-form" novalidate aria-label="Formulário de contato">
+                  <div class="form-grid">
+
+                    <div class="form-group">
+                      <label for="nome">Nome *</label>
+                      <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Seu nome completo"
+                        required
+                        autocomplete="name"
+                        aria-required="true"
+                      />
+                      <span class="error-msg" role="alert">Este campo é obrigatório.</span>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="email">E-mail *</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="seu@email.com"
+                        required
+                        autocomplete="email"
+                        aria-required="true"
+                      />
+                      <span class="error-msg" role="alert">Digite um e-mail válido.</span>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="telefone">Telefone</label>
+                      <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(11) 99999-9999"
+                        autocomplete="tel"
+                      />
+                      <span class="error-msg" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="assunto">Assunto *</label>
+                      <select id="assunto" name="assunto" required aria-required="true">
+                        <option value="" disabled selected>Selecione um assunto</option>
+                        <option value="demo">Solicitar demonstração</option>
+                        <option value="parceria">Parceria acadêmica</option>
+                        <option value="produtor">Sou produtor rural</option>
+                        <option value="imprensa">Imprensa</option>
+                        <option value="outro">Outro assunto</option>
+                      </select>
+                      <span class="error-msg" role="alert">Selecione um assunto.</span>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="propriedade">Tamanho da propriedade</label>
+                      <select id="propriedade" name="propriedade">
+                        <option value="" disabled selected>Selecione (opcional)</option>
+                        <option value="pequena">Até 50 ha</option>
+                        <option value="media">50 a 500 ha</option>
+                        <option value="grande">500 a 5.000 ha</option>
+                        <option value="muito-grande">Acima de 5.000 ha</option>
+                        <option value="na">Não se aplica</option>
+                      </select>
+                      <span class="error-msg" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="cultura">Cultura principal</label>
+                      <input
+                        type="text"
+                        id="cultura"
+                        name="cultura"
+                        placeholder="Ex: Soja, Milho, Cana..."
+                      />
+                      <span class="error-msg" role="alert"></span>
+                    </div>
+
+                    <div class="form-group full">
+                      <label for="mensagem">Mensagem *</label>
+                      <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        placeholder="Descreva como podemos ajudar, qual é o seu projeto ou dúvida..."
+                        required
+                        aria-required="true"
+                        rows="5"
+                      ></textarea>
+                      <span class="error-msg" role="alert">Este campo é obrigatório.</span>
+                    </div>
+
+                    <div class="form-group full">
+                      <label style="display:flex;align-items:flex-start;gap:10px;font-size:0.8rem;text-transform:none;letter-spacing:0;cursor:pointer;font-weight:400;color:var(--texto-muted);">
+                        <input
+                          type="checkbox"
+                          id="lgpd"
+                          name="lgpd"
+                          required
+                          aria-required="true"
+                          style="margin-top:2px;min-width:16px;width:16px;height:16px;accent-color:var(--verde);"
+                        />
+                        Concordo com o uso dos meus dados para responder a esta mensagem, conforme a LGPD (Lei 13.709/2018). *
+                      </label>
+                      <span class="error-msg" role="alert">Você precisa aceitar para continuar.</span>
+                    </div>
+
+                  </div>
+
+                  <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">
+                      Enviar Mensagem →
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Mensagem de sucesso -->
+              <div class="form-success" role="status" aria-live="polite">
+                <div class="success-icon">✅</div>
+                <h3>Mensagem enviada!</h3>
+                <p>Obrigado pelo contato. Respondemos em até 48 horas úteis.</p>
+                <a href="index.html" class="btn btn-primary" style="margin-top:16px">Voltar ao Início</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ RÁPIDO -->
+    <section class="section" style="background:var(--off-white);" aria-labelledby="faq-rapido-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Dúvidas Rápidas</span>
+          <h2 id="faq-rapido-title">Perguntas frequentes</h2>
+        </div>
+        <div class="faq-list reveal" role="list">
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Preciso instalar alguma coisa na minha fazenda?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Não. O monitoramento é 100% remoto por satélite. Você só precisa de acesso à internet para acessar a plataforma.</p>
+            </div>
+          </div>
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Quanto tempo leva para receber os primeiros dados?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Após o cadastro dos talhões, o primeiro mapa de umidade é gerado na próxima passagem do Sentinel-1 sobre a sua região — em média 3 a 6 dias. A partir daí, os dados são atualizados continuamente.</p>
+            </div>
+          </div>
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              O sistema funciona em regiões com muita chuva e nuvens?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Sim! Essa é a principal vantagem do SAR em relação às câmeras ópticas. As micro-ondas atravessam a camada de nuvens sem perda de qualidade, garantindo dados mesmo nas épocas de maior precipitação.</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal" style="text-align:center;margin-top:40px;">
+          <a href="faq.html" class="btn btn-secondary">Ver todas as perguntas</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="AgroSat Water" class="footer-logo-img" />
+          <p>Sistema de gerenciamento hídrico agrícola por satélite. Tecnologia SAR para um campo mais sustentável.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre o Projeto</a></li>
+            <li><a href="solucao.html">Nossa Solução</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="integrantes.html">Nossa Equipe</a></li>
+            <li><a href="faq.html">Perguntas Frequentes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-newsletter">
+          <h5>Novidades</h5>
+          <p>Receba atualizações sobre o AgroSat Water.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="seu@email.com" aria-label="E-mail para newsletter" />
+            <button class="btn btn-primary" type="button">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AgroSat Water. Projeto Global Solution — FIAP.</p>
+        <div class="footer-bottom-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

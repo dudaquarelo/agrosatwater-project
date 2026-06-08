@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AgroSat Water — Sistema de gerenciamento hídrico agrícola por satélite. Monitoramento remoto de umidade do solo com tecnologia SAR." />
+  <title>AgroSat Water — Gestão Hídrica Inteligente</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-logo" href="index.html" aria-label="AgroSat Water - Início">
+        <span class="logo-text">AgroSat <span class="logo-accent">Water</span></span>
+      </a>
+      <ul class="navbar-menu" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="integrantes.html">Equipe</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+      </div>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" role="navigation" aria-label="Menu mobile">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="solucao.html">Solução</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="integrantes.html">Equipe</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contato.html">Contato</a>
+    <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Seção principal">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>🛰️</span> Tecnologia Satelital SAR
+          </div>
+          <h1>Gestão Hídrica <em>Inteligente</em> para o Campo</h1>
+          <p class="hero-desc">
+            O AgroSat Water utiliza sensores SAR de satélite para monitorar a umidade do solo em tempo real — sem infraestrutura no campo, com precisão superior a sensores convencionais.
+          </p>
+          <div class="hero-actions">
+            <a href="solucao.html" class="btn btn-primary">Conhecer a Solução</a>
+            <a href="sobre.html" class="btn btn-secondary">Saiba Mais</a>
+          </div>
+        </div>
+
+        <!-- Hero visual card -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <div class="hero-card-icon">🌱</div>
+              <div>
+                <h4>Talhão Norte — Fazenda Bela Vista</h4>
+                <p>Atualizado há 2 minutos</p>
+              </div>
+            </div>
+            <div class="sensor-list">
+              <div class="sensor-item">
+                <span class="sensor-label">Umidade</span>
+                <div class="sensor-bar">
+                  <div class="sensor-bar-fill green" data-width="72%" style="width:0%"></div>
+                </div>
+                <span class="sensor-val">72%</span>
+              </div>
+              <div class="sensor-item">
+                <span class="sensor-label">Permissiv.</span>
+                <div class="sensor-bar">
+                  <div class="sensor-bar-fill blue" data-width="58%" style="width:0%"></div>
+                </div>
+                <span class="sensor-val">58%</span>
+              </div>
+              <div class="sensor-item">
+                <span class="sensor-label">Irrigação</span>
+                <div class="sensor-bar">
+                  <div class="sensor-bar-fill teal" data-width="85%" style="width:0%"></div>
+                </div>
+                <span class="sensor-val">85%</span>
+              </div>
+              <div class="sensor-item">
+                <span class="sensor-label">Alerta</span>
+                <div class="sensor-bar">
+                  <div class="sensor-bar-fill orange" data-width="18%" style="width:0%"></div>
+                </div>
+                <span class="sensor-val">OK</span>
+              </div>
+            </div>
+            <div class="hero-card-footer">
+              <div>
+                <span class="status-dot"></span>
+                <span class="status-text">Sistema ativo — sem alertas</span>
+              </div>
+              <span style="font-size:0.75rem;color:rgba(255,255,255,0.35);font-family:var(--font-display);">SAR v2.4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Funcionalidades</span>
+          <h2 id="features-title">Tudo que sua fazenda precisa</h2>
+          <p>Uma plataforma completa para monitoramento, gestão e tomada de decisão baseada em dados concretos.</p>
+        </div>
+        <div class="features-grid reveal-stagger">
+          <div class="feature-card">
+            <div class="feature-icon">🛰️</div>
+            <h3>Monitoramento Satelital</h3>
+            <p>Sensores SAR captam a permissividade dielétrica do solo com cobertura de grandes extensões sem necessidade de equipamentos físicos no campo.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💧</div>
+            <h3>Gestão de Umidade</h3>
+            <p>Visualize mapas de umidade do solo por talhão em tempo real e receba alertas automáticos de seca, excesso hídrico ou vazamento.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚜</div>
+            <h3>Cadastro de Fazendas</h3>
+            <p>Cadastre e gerencie fazendas e talhões com informações detalhadas. Organize sua propriedade de forma digital e acessível.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Histórico de Irrigações</h3>
+            <p>Consulte o histórico completo de irrigações com relatórios e gráficos para embasar decisões de manejo agrícola sustentável.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔔</div>
+            <h3>Alertas Inteligentes</h3>
+            <p>Receba notificações de umidade crítica, risco de seca ou excesso de água com base nos limiares definidos para cada cultura.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Gestão de Usuários</h3>
+            <p>Controle de acesso para agricultores e técnicos agrônomos, com perfis diferenciados e visualizações específicas para cada função.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Como Funciona</span>
+          <h2 id="how-title">Do satélite à decisão no campo</h2>
+          <p>Quatro etapas simples que transformam dados orbitais em ações práticas de irrigação.</p>
+        </div>
+        <div class="steps-grid reveal-stagger">
+          <div class="step-item">
+            <div class="step-num">1</div>
+            <h4>Captura Satelital</h4>
+            <p>Satélites com sensores SAR orbitam e capturam dados de permissividade dielétrica do solo em sua fazenda.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">2</div>
+            <h4>Processamento</h4>
+            <p>Algoritmos convertem os dados de microondas em mapas de umidade com resolução por talhão.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">3</div>
+            <h4>Análise & Alertas</h4>
+            <p>A plataforma identifica padrões críticos e dispara alertas para o agricultor e técnico responsável.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">4</div>
+            <h4>Decisão Informada</h4>
+            <p>Com dados precisos em mãos, o produtor otimiza a irrigação e reduz o desperdício hídrico.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" aria-label="Chamada para ação">
+      <div class="container">
+        <h2 class="reveal">Pronto para irrigar com inteligência?</h2>
+        <p class="reveal">Conheça como o AgroSat Water pode transformar a gestão hídrica da sua propriedade.</p>
+        <div class="reveal">
+          <a href="solucao.html" class="btn btn-white" style="margin-right:16px">Ver a Solução</a>
+          <a href="contato.html" class="btn" style="color:var(--turquesa);border-color:var(--turquesa);">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="AgroSat Water" class="footer-logo-img" />
+          <p>Sistema de gerenciamento hídrico agrícola por satélite. Tecnologia SAR para um campo mais sustentável.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre o Projeto</a></li>
+            <li><a href="solucao.html">Nossa Solução</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="integrantes.html">Nossa Equipe</a></li>
+            <li><a href="faq.html">Perguntas Frequentes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-newsletter">
+          <h5>Novidades</h5>
+          <p>Receba atualizações sobre o AgroSat Water.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="seu@email.com" aria-label="E-mail para newsletter" />
+            <button class="btn btn-primary" type="button">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AgroSat Water. Projeto Global Solution — FIAP.</p>
+        <div class="footer-bottom-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

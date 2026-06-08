@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Perguntas frequentes sobre o AgroSat Water — sistema de monitoramento hídrico por satélite." />
+  <title>FAQ — AgroSat Water</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-logo" href="index.html" aria-label="AgroSat Water - Início">
+        <span class="logo-text">AgroSat <span class="logo-accent">Water</span></span>
+      </a>
+      <ul class="navbar-menu" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="integrantes.html">Equipe</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="navbar-cta">
+        <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+      </div>
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="solucao.html">Solução</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="integrantes.html">Equipe</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contato.html">Contato</a>
+    <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Cabeçalho da página">
+      <div class="container">
+        <span class="eyebrow">Perguntas Frequentes</span>
+        <h1>Como podemos ajudar?</h1>
+        <p>Encontre respostas sobre tecnologia SAR, funcionamento da plataforma e casos de uso do AgroSat Water.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">Dúvidas mais comuns</h2>
+        </div>
+
+        <div class="faq-list reveal" role="list">
+
+          <!-- Sobre a tecnologia -->
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              O que é um sensor SAR e como ele funciona?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>SAR (Synthetic Aperture Radar) é um sensor de micro-ondas instalado em satélites que emite pulsos de rádio em direção à superfície terrestre e captura os sinais refletidos. Diferente de câmeras ópticas, o SAR funciona independentemente de luz solar e atravessa nuvens, neblina e chuva. A propriedade que ele mede — a permissividade dielétrica — está diretamente relacionada ao conteúdo de água no solo. Água tem uma constante dielétrica muito maior que os minerais do solo, tornando possível estimar a umidade com alta precisão.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Qual é a precisão do monitoramento por satélite em comparação com sensores físicos?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Sensores SAR modernos como os da missão Sentinel-1 (ESA) atingem resolução espacial de até 5m e precisão de umidade volumétrica em torno de ±5% em condições ideais. Sensores físicos instalados no solo como tensiômetros e TDR (Time-Domain Reflectometry) podem ser mais precisos pontualmente, mas cobrem apenas a área imediata ao sensor. A vantagem do AgroSat Water é a cobertura espacial: enquanto um sensor físico representa um ponto, o SAR cobre dezenas de hectares por passagem, revelando a variabilidade espacial da umidade dentro do talhão.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Com que frequência os dados são atualizados?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>A frequência de revisita depende do satélite e da latitude da propriedade. O Sentinel-1, principal fonte de dados para a plataforma, tem ciclo de revisita de 6 dias na mesma órbita, chegando a 3 dias quando as duas plataformas (Sentinel-1A e 1B) são combinadas. Em regiões tropicais como o Brasil, a cobertura pode ser ainda mais frequente devido à sobreposição de órbitas. Os dados são processados e disponibilizados na plataforma em até 4 horas após a passagem do satélite.</p>
+            </div>
+          </div>
+
+          <!-- Sobre a plataforma -->
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Preciso instalar algum equipamento na fazenda para usar o AgroSat Water?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Não. Essa é uma das principais vantagens da solução. O monitoramento é feito inteiramente por satélite, sem necessidade de sensores físicos, cabos, baterias ou qualquer infraestrutura de campo. Você precisa apenas de acesso à internet para acessar a plataforma web e visualizar os dados. Para propriedades em áreas com conectividade limitada, trabalhamos com versão offline dos relatórios que podem ser baixados e consultados depois.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Como é feito o cadastro de fazendas e talhões?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>O cadastro é feito diretamente na plataforma através de um mapa interativo. Você delimita o contorno da fazenda e de cada talhão desenhando polígonos no mapa ou importando arquivos shapefile (.shp) ou KML do Google Earth. Para cada talhão você registra o tipo de cultura, a data de plantio e os limiares de umidade ideais para aquela cultura. O sistema então calcula automaticamente os alertas com base nessas configurações.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Quais tipos de alertas o sistema emite?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>O AgroSat Water emite três categorias principais de alertas: Alerta de Seca (umidade do solo abaixo do limiar crítico para a cultura), Alerta de Excesso Hídrico (saturação do solo que pode indicar encharcamento ou risco de doenças radiculares) e Alerta de Anomalia (padrão de variação incomum que pode indicar vazamento de irrigação ou degradação do solo). Os alertas são enviados por e-mail, SMS e notificação push no aplicativo.</p>
+            </div>
+          </div>
+
+          <!-- Sobre uso e aplicação -->
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Para quais culturas o sistema é indicado?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>O AgroSat Water é especialmente eficaz para culturas anuais irrigadas como soja, milho, cana-de-açúcar, algodão, trigo e arroz irrigado. Também funciona bem para horticultura intensiva em estufas e campo aberto. Culturas perenes como café, citros e eucalipto também se beneficiam do monitoramento. A plataforma possui perfis pré-configurados de limiares hídricos para as 20 culturas mais cultivadas no Brasil, com possibilidade de personalização.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Como o AgroSat Water contribui para a sustentabilidade hídrica?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Estudos de irrigação de precisão mostram que sistemas baseados em monitoramento real da umidade do solo permitem reduções de 20% a 40% no consumo de água sem perda de produtividade. O AgroSat Water permite que o agricultor irrigue exatamente quando e onde é necessário, evitando tanto o subírigação (que reduz produção) quanto o excesso (que desperdiça água, lixivia nutrientes e aumenta custos). Ao escala essa tecnologia para grandes áreas, o impacto no uso responsável dos recursos hídricos é significativo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+              Qual é a área mínima de uma propriedade para usar a plataforma?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Não há área mínima técnica, mas a resolução espacial dos dados SAR (resolução de pixel entre 5m e 20m dependendo do modo de aquisição) torna a plataforma mais útil para talhões a partir de 1 hectare. Para pequenos produtores com propriedades menores, recomendamos monitorar a área como um único talhão para ter dados representativos. A plataforma é dimensionada para trabalhar igualmente bem em pequenas propriedades familiares e em grandes latifúndios com centenas de talhões.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reveal" style="text-align:center;margin-top:64px;">
+          <p style="font-size:1.05rem;margin-bottom:24px;">Não encontrou o que precisava?</p>
+          <a href="contato.html" class="btn btn-primary">Envie sua dúvida</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="AgroSat Water" class="footer-logo-img" />
+          <p>Sistema de gerenciamento hídrico agrícola por satélite. Tecnologia SAR para um campo mais sustentável.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre o Projeto</a></li>
+            <li><a href="solucao.html">Nossa Solução</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="integrantes.html">Nossa Equipe</a></li>
+            <li><a href="faq.html">Perguntas Frequentes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-newsletter">
+          <h5>Novidades</h5>
+          <p>Receba atualizações sobre o AgroSat Water.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="seu@email.com" aria-label="E-mail para newsletter" />
+            <button class="btn btn-primary" type="button">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AgroSat Water. Projeto Global Solution — FIAP.</p>
+        <div class="footer-bottom-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
