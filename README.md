@@ -95,4 +95,12 @@ agrosat-water-global-solution/
  
 ---
 
+ 
+## 🛠️ Tecnologias Utilizadas
+ 
+- **HTML5**
+- **CSS3** (com variáveis CSS e design responsivo)
+- **JavaScript**
+---
+ 
 
