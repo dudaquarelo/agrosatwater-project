@@ -1,0 +1,233 @@
+/* Grid Principal */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+
+/* Card Principal */
+.about-card-main {
+  background: var(--gradient);
+  border-radius: var(--radius-xl);
+  padding: 3rem 2.5rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card-main::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.about-icon-big {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.about-card-main h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-card-main p {
+  opacity: 0.9;
+  line-height: 1.8;
+}
+
+
+/* Mini Stats */
+.about-stats-mini {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.about-stat-mini {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  backdrop-filter: blur(8px);
+}
+
+.about-stat-mini-num {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.about-stat-mini-label {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+
+/* Texto e Tags */
+.about-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+
+.about-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.about-tech-tag {
+  background: var(--lilac-light);
+  color: var(--secondary);
+  padding: 0.3rem 0.9rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid var(--border-soft);
+}
+
+
+/* Cards da Solução */
+.solution-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.solution-card {
+  padding: 2rem;
+}
+
+.solution-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.solution-card-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.solution-card-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+
+/* Tecnologias */
+.tech-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.tech-card {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.tech-card-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.tech-card-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
+.tech-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+
+/* Roadmap */
+.roadmap {
+  margin-top: 4rem;
+}
+
+.roadmap-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  position: relative;
+}
+
+.roadmap-items::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: var(--gradient);
+  z-index: 0;
+}
+
+.roadmap-item {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.roadmap-dot {
+  width: 60px;
+  height: 60px;
+  background: var(--gradient);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+}
+
+.roadmap-dot.inactive {
+  background: var(--lilac-light);
+  box-shadow: none;
+}
+
+.roadmap-dot.inactive span {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.roadmap-label {
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.roadmap-period {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}

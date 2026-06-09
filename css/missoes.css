@@ -1,0 +1,179 @@
+/* Stats do Cabeçalho */
+.missions-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.missions-hero-stat {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-soft);
+}
+
+.missions-hero-stat-num {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 2.25rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.missions-hero-stat-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+
+/* Barra de Filtros */
+.missions-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-label {
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.filter-pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-pill {
+  padding: 0.4rem 1.1rem;
+  border-radius: 50px;
+  border: 2px solid var(--border-soft);
+  background: white;
+  font-weight: 700;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-muted);
+}
+
+.filter-pill:hover,
+.filter-pill.active {
+  border-color: var(--primary-light);
+  background: var(--lilac-light);
+  color: var(--primary);
+}
+
+
+/* Grade Completa de Missões */
+.missions-full-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.mission-card-full {
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.mission-card-full:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.mission-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--gradient-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  transition: background 0.3s ease;
+}
+
+.mission-card-full:hover .mission-icon {
+  background: var(--gradient);
+}
+
+.mission-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.mission-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 50px;
+  background: var(--lilac-light);
+  color: var(--secondary);
+}
+
+
+/* Bloco "Entenda os Níveis" */
+.levels-explainer {
+  margin-top: 4rem;
+  background: var(--gradient-soft);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+}
+
+.levels-explainer-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.levels-explainer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.level-explain-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.level-explain-card.easy   { border-left: 4px solid #16A34A; }
+.level-explain-card.medium { border-left: 4px solid #CA8A04; }
+.level-explain-card.hard   { border-left: 4px solid #DC2626; }
+
+.level-explain-emoji {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.level-explain-title {
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.level-explain-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
