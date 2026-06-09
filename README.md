@@ -123,9 +123,7 @@ agrosat-water-global-solution/
 
 
 ---
- 
-## 📬 Contato
- 
+
 ## 📬 Contato
 
 Dúvidas ou sugestões sobre o projeto? Entre em contato pelo formulário disponível na página [Contato](contato.html) do site.
