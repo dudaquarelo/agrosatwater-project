@@ -2,7 +2,6 @@ const navbar = document.querySelector('.navbar');
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 
-
 window.addEventListener('scroll', () => {
   if (window.scrollY > 40) {
     navbar?.classList.add('scrolled');
@@ -12,7 +11,6 @@ window.addEventListener('scroll', () => {
   toggleScrollTop();
 });
 
-// Hamburger //
 hamburger?.addEventListener('click', () => {
   hamburger.classList.toggle('open');
   mobileMenu?.classList.toggle('open');
@@ -70,8 +68,10 @@ document.querySelectorAll('.faq-question').forEach(question => {
     const item = question.closest('.faq-item');
     const isOpen = item.classList.contains('open');
 
+    // Close all
     document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
 
+    // Open clicked (if wasn't already open)
     if (!isOpen) {
       item.classList.add('open');
     }
@@ -86,7 +86,8 @@ if (contactForm) {
     e.preventDefault();
     let valid = true;
 
-    const fields = contactForm.querySelectorAll('[required]');
+    // Validate text/email/select/textarea fields
+    const fields = contactForm.querySelectorAll('input[required]:not([type="checkbox"]), textarea[required], select[required]');
     fields.forEach(field => {
       const group = field.closest('.form-group');
       const errorMsg = group?.querySelector('.error-msg');
@@ -107,6 +108,16 @@ if (contactForm) {
       }
     });
 
+    const lgpd = contactForm.querySelector('#lgpd');
+    if (lgpd && !lgpd.checked) {
+      lgpd.closest('.form-group')?.classList.add('invalid');
+      const errorMsg = lgpd.closest('.form-group')?.querySelector('.error-msg');
+      if (errorMsg) errorMsg.textContent = 'Você precisa aceitar para continuar.';
+      valid = false;
+    } else if (lgpd) {
+      lgpd.closest('.form-group')?.classList.remove('invalid');
+    }
+
     if (valid) {
       const formInner = contactForm.querySelector('.form-inner');
       const successMsg = contactForm.querySelector('.form-success');
@@ -117,6 +128,10 @@ if (contactForm) {
 
   contactForm.querySelectorAll('input, textarea, select').forEach(field => {
     field.addEventListener('input', () => {
+      field.classList.remove('error');
+      field.closest('.form-group')?.classList.remove('invalid');
+    });
+    field.addEventListener('change', () => {
       field.classList.remove('error');
       field.closest('.form-group')?.classList.remove('invalid');
     });
@@ -156,7 +171,6 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeModal();
 });
 
-// ANIMACAO SENSOR BARS //
 function animateSensorBars() {
   const bars = document.querySelectorAll('.sensor-bar-fill');
   bars.forEach(bar => {
@@ -178,6 +192,7 @@ if (heroSection) {
   heroObserver.observe(heroSection);
 }
 
+// ANIMACAO DASHBOARD CHART //
 function animateChartBars() {
   const chartBars = document.querySelectorAll('.chart-bar[data-height]');
   chartBars.forEach((bar, i) => {
@@ -215,7 +230,7 @@ tabBtns.forEach(btn => {
   });
 });
 
-
+// SMOOTH ANCHOR SCROLL //
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     const href = this.getAttribute('href');
@@ -227,6 +242,48 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       const top = target.getBoundingClientRect().top + window.scrollY - offset - 16;
       window.scrollTo({ top, behavior: 'smooth' });
     }
+  });
+});
+
+// NEWSLETTER //
+document.querySelectorAll('.newsletter-form').forEach(form => {
+  const input = form.querySelector('input[type="email"]');
+  const btn = form.querySelector('button');
+
+  btn.addEventListener('click', () => {
+    if (!input.value.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
+      input.style.borderColor = '#ef4444';
+      input.focus();
+      return;
+    }
+
+    // Sucesso
+    input.style.borderColor = '';
+    btn.textContent = '✓';
+    btn.style.background = 'var(--turquesa)';
+    btn.disabled = true;
+    input.value = '';
+    input.placeholder = 'Obrigado por se inscrever!';
+    input.disabled = true;
+
+    // Reset após 4 segundos
+    setTimeout(() => {
+      btn.textContent = '→';
+      btn.style.background = '';
+      btn.disabled = false;
+      input.disabled = false;
+      input.placeholder = 'seu@email.com';
+    }, 4000);
+  });
+
+  // Limpa erro ao digitar
+  input.addEventListener('input', () => {
+    input.style.borderColor = '';
+  });
+
+  // Permite enviar com Enter
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') btn.click();
   });
 });
 
