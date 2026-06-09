@@ -28,3 +28,24 @@ Este repositório contém o **Front-End** do projeto: um site completo que apres
  
 ---
 
+---
+
+
+## 🖼️ Imagens e Ícones
+
+
+**Página Inicial**
+![Home](assets/home.png)
+ 
+**Dashboard**
+![Dashboard](assets/dashboard.png)
+ 
+**Solução**
+![Solução](assets/solucao.png)
+ 
+**Equipe**
+![Equipe](assets/equipe.png)
+
+---
+
+
