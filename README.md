@@ -103,4 +103,16 @@ agrosat-water-global-solution/
 - **JavaScript**
 ---
  
+ 
+ 
+## 👩‍💻 Integrantes
+ 
+| Nome | GitHub |
+|------|--------|
+| Maria Eduarda Cavallari Quarelo | [@dudaquarelo](https://github.com/dudaquarelo) |
+| Bianca Pereira da Silva | [@biancapereirasilva](https://github.com/biancapereirasilva) |
+| Isabelle Souza Lima Pires Araujo| [@isasouzz](https://github.com/isasouzz) |
+| Thays Lira de Oliveira| [@thaylira2026-hub](https://github.com/thaylira2026-hub) |
+ 
+---
 
