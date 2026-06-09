@@ -25,8 +25,6 @@ Este repositório contém o **Front-End** do projeto: um site completo que apres
 ## 🔗 Repositório
  
 [https://github.com/dudaquarelo/agrosatwater-project](https://github.com/dudaquarelo/agrosatwater-project)
- 
----
 
 ---
 
