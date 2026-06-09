@@ -115,4 +115,11 @@ agrosat-water-global-solution/
 | Thays Lira de Oliveira| [@thaylira2026-hub](https://github.com/thaylira2026-hub) |
  
 ---
+ 
+## 🏫 Informações Acadêmicas
+ 
+- **Instituição:** FIAP
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Disciplina:** Global Solution 2026
+- **Tema:** Space Connect
 
