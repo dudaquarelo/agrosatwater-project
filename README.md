@@ -46,6 +46,53 @@ Este repositório contém o **Front-End** do projeto: um site completo que apres
 **Equipe**
 ![Equipe](assets/equipe.png)
 
+
+---
+
+
+## 🗂️ Estrutura do Projeto
+ 
+```
+agrosat-water-global-solution/
+│
+├── README.md             # Documentação do projeto
+├── assets/               # Imagens, ícones e logo
+│   ├── logo.png
+│   ├── icon.png
+│   ├── foto_bianca.JPEG
+│   ├── foto_duda.jpeg
+│   ├── foto_isa.jpeg
+│   ├── foto_thays.jpeg
+│   ├── home.png
+│   ├── dashboard.png
+│   ├── solucao.png
+│   └── equipe.png
+│
+├── css/                  # Estilos separados por componente/página
+│   ├── global.css
+│   ├── variaveis.css
+│   ├── header.css
+│   ├── footer.css
+│   ├── index.css
+│   ├── sobre.css
+│   ├── paginas.css
+│   ├── integrantes.css
+│   ├── contato.css
+│   ├── faq.css
+│   ├── style.css
+│   └── responsivo.css
+│
+├── js/                   # Scripts JavaScript
+│
+├── index.html            # Página inicial
+├── sobre.html            # Sobre o projeto
+├── solucao.html          # A solução
+├── dashboard.html        # Dashboard de monitoramento
+├── integrantes.html      # Equipe
+├── faq.html              # Perguntas frequentes
+└── contato.html          # Contato
+```
+ 
 ---
 
 
