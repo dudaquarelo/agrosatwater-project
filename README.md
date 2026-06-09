@@ -128,4 +128,4 @@ agrosat-water-global-solution/
  
 ## 📬 Contato
 
-Dúvidas ou sugestões sobre o projeto? Entre em contato pelo formulário disponível na página [Contato](contato.html) do site ou abra uma [Issue](https://github.com/dudaquarelo/agrosatwater-project/issues) no repositório.
+Dúvidas ou sugestões sobre o projeto? Entre em contato pelo formulário disponível na página [Contato](contato.html) do site.
