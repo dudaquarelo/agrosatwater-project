@@ -101,16 +101,14 @@ agrosat-water-global-solution/
 - **JavaScript**
 ---
  
- 
- 
-## 👩‍💻 Integrantes
- 
-| Nome | GitHub |
-|------|--------|
-| Maria Eduarda Cavallari Quarelo | [@dudaquarelo](https://github.com/dudaquarelo) |
-| Bianca Pereira da Silva | [@biancapereirasilva](https://github.com/biancapereirasilva) |
-| Isabelle Souza Lima Pires Araujo| [@isasouzz](https://github.com/isasouzz) |
-| Thays Lira de Oliveira| [@thaylira2026-hub](https://github.com/thaylira2026-hub) |
+ ## 👩‍💻 Integrantes
+
+| Foto | Nome | RM | Turma | LinkedIn | GitHub |
+|------|------|----|-------|----------|--------|
+| ![Duda](assets/foto_duda.jpeg) | Maria Eduarda Cavallari Quarelo | RM 570462 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/maria-eduarda-quarelo-678a0840a/) | [@dudaquarelo](https://github.com/dudaquarelo) |
+| ![Bianca](assets/foto_bianca.JPEG) | Bianca Pereira da Silva | RM 571077 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/bianca-pereira-866845213/) | [@biancapereirasilva](https://github.com/biancapereirasilva) |
+| ![Isa](assets/foto_isa.jpeg) | Isabelle Souza Lima Pires Araujo | RM 569370 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/isabelle-souza-9342a027a/) | [@isasouzz](https://github.com/isasouzz) |
+| ![Thays](assets/foto_thays.jpeg) | Thays Lira de Oliveira | RM 568799 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/thays-lira-538619186/) | [@thaylira2026-hub](https://github.com/thaylira2026-hub) |
  
 ---
  
