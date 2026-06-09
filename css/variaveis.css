@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Cores principais */
+  --verde: #2E7D32;
+  --verde-light: #43A047;
+  --verde-dark: #1B5E20;
+  --azul-escuro: #0D2B45;
+  --azul-escuro-2: #0a2035;
+  --azul-claro: #0077CC;
+  --turquesa: #00A7A7;
+  --cinza: #6B7280;
+  --cinza-light: #9CA3AF;
+
+  /* Cores neutras */
+  --branco: #ffffff;
+  --off-white: #F0F4F8;
+  --texto-dark: #0D2B45;
+  --texto-muted: #4B5563;
+
+  /* Tipografia */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Bordas e sombras */
+  --radius: 12px;
+  --radius-sm: 6px;
+  --shadow: 0 4px 24px rgba(13, 43, 69, 0.12);
+  --shadow-lg: 0 12px 48px rgba(13, 43, 69, 0.18);
+
+  /* Transições */
+  --transition: 0.3s ease;
+
+  /* Layout */
+  --nav-height: 72px;
+}
